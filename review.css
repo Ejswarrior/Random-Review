@@ -1,0 +1,97 @@
+.pic{
+width: 195px;
+height: 195px;
+border-radius: 50px;
+margin: auto;
+display: block;
+}
+.name{
+    text-align: center;
+}
+.job{
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.btnNext{
+    display: inline-block;
+    position: relative;
+    /* Move the element to the right by 50% of the container's width */
+    left: 51%; 
+    /* Calculates 50% of the element's width, and moves it by that */ 
+    /* amount across the X-axis to the left */
+    transform: translateX(-50%);
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: blanchedalmond;
+    
+
+}
+.btnChange{
+    
+    display: inline-block;
+    position: relative;
+    /* Move the element to the right by 50% of the container's width */
+    left: 50%; 
+    /* Calculates 50% of the element's width, and moves it by that */ 
+    /* amount across the X-axis to the left */
+    transform: translateX(-50%);
+        background-color:black;
+        color:black;
+        
+        width: 110px;
+        height: 40px;
+        text-align: center;
+        background-color: royalblue;
+        
+}
+
+.btnBack{
+   
+    display: inline-block;
+    position: relative;
+    /* Move the element to the right by 50% of the container's width */
+    left: 32%; 
+    /* Calculates 50% of the element's width, and moves it by that */ 
+    /* amount across the X-axis to the left */
+    transform: translateX(-50%);
+  
+    color:white;
+    
+    width: 100px;
+    height: 40px;
+   
+    text-align: center;
+
+    background-color: blanchedalmond;
+   
+    
+}
+
+body{
+    background-color: blanchedalmond;
+    border-style:outset;
+    border-width: 10px;
+    border-color: brown;
+    border-radius: 30px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
